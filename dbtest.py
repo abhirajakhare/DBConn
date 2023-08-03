@@ -11,7 +11,7 @@ con = CXO.connect("system/H1r0sh1ma@localhost:1521/XEPDB1")
 print(con.version)
 
 # Now execute the sqlquery
-cursor = con.cursor()
+cursor = con.cursor() 
 print("You're connected: ")
 cursor.setinputsizes(None, 30, None)
 

@@ -8,7 +8,7 @@ OUTPUT_ENCODING = "utf-8"
 BATCH_SIZE = 250000
 FILENAME = "out.csv"
 SQL = """
-    select * from employee
+    select * from employee 
     """
 
 

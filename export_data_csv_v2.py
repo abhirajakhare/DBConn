@@ -12,7 +12,7 @@ OUTPUT_ENCODING = "utf-8"
 BATCH_SIZE = 1000000
 
 sql = """
-select * from employee
+select * from employee 
 """
 
 

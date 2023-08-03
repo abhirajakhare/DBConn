@@ -5,7 +5,7 @@ import cx_Oracle
 try:
 
     con = cx_Oracle.connect("system/H1r0sh1ma@localhost:1521/XEPDB1")
-    print(con.version)
+    print(con.version) 
 
     # Now execute the sqlquery
     cursor = con.cursor()

@@ -9,7 +9,7 @@ chunk =1000000
 # Create empty list
 df = []
 # Create empty dataframe
-dfs = pd.DataFrame()
+dfs = pd.DataFrame() 
 
 # Read a table in Oracle database and write to a CSV
 try:

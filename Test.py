@@ -13,7 +13,7 @@ print(oracledb.version)  # this returns 8.0.1 for me
 
 try :
     conn = oracledb.connect("system/H1r0sh1ma@localhost:1521/XEPDB1")    
-    print(conn.version)
+    print(conn.version) 
     cur = conn.cursor()
     sql = """select to_char(count(*),'FM999G999G999G999') from employee"""
     cur.execute(sql)

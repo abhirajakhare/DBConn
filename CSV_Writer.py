@@ -5,7 +5,7 @@ from datetime import datetime
 ORACLE_CONNECT = "system/H1r0sh1ma@localhost:1521/XEPDB1"
 OUTPUT_ENCODING = "utf-8"
 filename = "out.csv"
-conn = ora.connect(ORACLE_CONNECT)
+conn = ora.connect(ORACLE_CONNECT) 
 start_time = datetime.now()
 cursor = conn.cursor()
 cursor.execute("select * from employee")

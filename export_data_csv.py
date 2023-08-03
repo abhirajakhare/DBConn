@@ -4,7 +4,7 @@ import oracledb
 from datetime import datetime
 
 ORACLE_CONNECT = "system/H1r0sh1ma@localhost:1521/XEPDB1"
-OUTPUT_ENCODING = "utf-8"
+OUTPUT_ENCODING = "utf-8" 
 BATCH_SIZE = 5000000
 
 sql = """

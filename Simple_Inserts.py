@@ -25,7 +25,7 @@ try:
 
     for i, row in EmpData.iterrows():
         sql = "INSERT INTO employee(empid, name, salary) VALUES(:1,:2,:3)"
-        cursor.execute(sql, tuple(row))
+        cursor.execute(sql,tuple(row))
         # the connection is not autocommitted by default, so we must commit to save our changes
         con.commit()
     print("Record inserted succesfully")

@@ -5,7 +5,7 @@ from datetime import datetime
 
 chunk = 1000000
 offset = 0
-# Create empty list
+# Create empty list 
 df = []
 # Create empty dataframe
 dfs = pd.DataFrame()
